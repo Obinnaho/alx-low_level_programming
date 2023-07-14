@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - The program starts here
+ * main - Starts here
  * Description: Prints single-digit numbers of base 10 starting from 0
- * Return: Always0(Success)
+ * Return: 0(Success)
  */
 
 int main(void)
