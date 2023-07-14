@@ -12,7 +12,7 @@ int main(void)
 	if (n > 0) 
 		{printf("%d n is a positive number.\n", n);}
 	else if (n < 0)
-		{printf("%d n is a negative number.\n, n);}
+		{printf("%d n is a negative number.\n", n);}
 	else {printf("The number is zero");}
 	return (0);
 }
