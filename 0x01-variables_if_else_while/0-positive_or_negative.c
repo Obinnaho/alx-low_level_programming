@@ -4,6 +4,10 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/*
+*main -Returns a number positive or negative
+*
+*/
 int main(void)
 {
 	int n;
@@ -21,7 +25,7 @@ int main(void)
 
 	else
 {
-	printf("%d is zero", n);
+	printf("%d is zero.", n);
 }
 
 	return (0);
