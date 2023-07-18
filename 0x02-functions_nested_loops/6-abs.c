@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _abs  computes absolute value of an integrer
+ * _abs - computes absolute value of an integrer
  *
  * @n: the int to check
  *
