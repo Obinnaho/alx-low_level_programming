@@ -6,17 +6,17 @@
  * @count: The number of variable arguments passed to the function.
  * @...: A variable number of arguments to calculate the sum of.
  *
- * Return: If count is 0, returns 0.
+ * Return: If n is 0, returns 0.
  *         Otherwise, returns the sum of all arguments.
  */
-int sum_varargs(const unsigned int count, ...)
+int sum_varargs(const unsigned int n, ...)
 {
 	va_list args;
 	unsigned int i, sum = 0;
 
-	va_start(args, count);
+	va_start(args, n);
 
-	for (i = 0; i < count; i++)
+	for (i = 0; i < n; i++)
 		sum += va_arg(args, int);
 
 	va_end(args);
