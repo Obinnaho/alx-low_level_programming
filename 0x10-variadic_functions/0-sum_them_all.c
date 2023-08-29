@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
    /**
-   * sum_varargs - Returns the sum of all its variable arguments.
+   * sum_them_all - Returns the sum of all its variable arguments.
    * @count: The number of variable arguments passed to the function.
    * @...: A variable number of arguments to calculate the sum of.
    *
@@ -23,4 +23,3 @@ int sum_them_all(const unsigned int n, ...)
 
 	return (sum);
 }
-
