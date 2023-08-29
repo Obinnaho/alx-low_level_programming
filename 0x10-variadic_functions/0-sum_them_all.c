@@ -1,14 +1,14 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 
-   /**
-   * sum_them_all - Returns the sum of all its variable arguments.
-   * @count: The number of variable arguments passed to the function.
-   * @...: A variable number of arguments to calculate the sum of.
-   *
-   * Return: If n is 0, returns 0.
-  *         Otherwise, returns the sum of all arguments.
-  */
+/**
+ * sum_them_all - Returns the sum of all its variable arguments.
+ * @n: The number of variable arguments passed to the function.
+ * @...: A variable number of arguments to calculate the sum of.
+ *
+ * Return: If n is 0, returns 0.
+ *         Otherwise, returns the sum of all arguments.
+ */
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list ap;
