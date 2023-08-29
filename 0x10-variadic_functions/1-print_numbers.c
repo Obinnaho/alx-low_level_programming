@@ -5,7 +5,8 @@
 /**
  * print_numbers - Prints a series of numbers, separated by a specified string,
  *                followed by a new line.
- * @separator: The string to be printed between numbers (or NULL for no separator).
+ * @separator: The string to be printed between
+ * numbers (or NULL for no separator).
  * @n: The number of integers passed to the function.
  * @...: A variable number of integers to be printed.
  */
